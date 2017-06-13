@@ -1,0 +1,16 @@
+.feature-products {
+    @extend .container;
+    .feature-products-row {
+        @include make-row();
+        overflow: hidden;
+        .product-col {
+            @include make-md-column(3);
+            .product-picture {
+                @include size(100%, 300px);
+                width: 100%;
+                height: 250px;
+                background-color: #fff;
+            }
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.btn-primary {
+    background-color: $btn-primary-bg;
+    border: 0;
+}
+
+.btn-wrapper {
+    @include make-row();
+    text-align: center;
+}

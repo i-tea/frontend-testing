@@ -1,0 +1,7 @@
+.sidebar-main {
+    //@include make-row();
+    .sidebar-col {
+        @include make-lg-column(3);
+        //border-left: 1px solid green;
+    }
+}

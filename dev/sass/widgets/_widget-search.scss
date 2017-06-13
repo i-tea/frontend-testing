@@ -1,0 +1,27 @@
+.widget-search {
+    //@include make-row();
+    .widget-search-content {
+        //@include make-lg-column(3);
+        //border-left: 1px solid green;
+    }
+}
+
+.widget-title {
+    ul {
+        list-style: none;
+        padding-left: 0;
+        li {
+            padding: 15px 0;
+            border-bottom: 1px solid $primary-color;
+            &:last-child {
+                border-bottom: 0;
+            }
+            a {
+                color: #888;
+            }
+        }
+    }
+    h4 {
+        color: $primary-color;
+    }
+}

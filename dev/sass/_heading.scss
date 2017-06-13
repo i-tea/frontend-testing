@@ -1,0 +1,71 @@
+.title {
+    &.title-with-icon {
+        position: relative;
+        padding-left: 35px;
+        //color: rgba(158, 37, 142, 1); //going to be middle color - todo: add to variables
+        font-size: 30px;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-image: -webkit-linear-gradient(top right, $primary-color, $secondary-color);
+        background-image: -moz-linear-gradient(top right, $primary-color, $secondary-color);
+        background-image: -o-linear-gradient(top right, $primary-color, $secondary-color);
+        background-image: linear-gradient(to bottom left, $primary-color, $secondary-color);
+        &:before {
+            margin-left: -35px;
+            font-size: 30px;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-image: -webkit-linear-gradient(top right, $primary-color, $secondary-color);
+            background-image: -moz-linear-gradient(top right, $primary-color, $secondary-color);
+            background-image: -o-linear-gradient(top right, $primary-color, $secondary-color);
+            background-image: linear-gradient(to bottom left, $primary-color, $secondary-color);
+        }
+    }
+    &.icon-instagram:before {
+        content: $fa-var-instagram;
+        position: absolute;
+        font-family: 'FontAwesome';
+    }
+    &.icon-facebook:before {
+        content: $fa-var-facebook-square;
+        position: absolute;
+        font-family: 'FontAwesome';
+    }
+    &.icon-linkedin:before {
+        content: $fa-var-linkedin-square;
+        position: absolute;
+        font-family: 'FontAwesome';
+    }
+    &.icon-youtube:before {
+        content: $fa-var-youtube-square;
+        position: absolute;
+        font-family: 'FontAwesome';
+    }
+    &.icon-rss:before {
+        content: $fa-var-rss-square;
+        position: absolute;
+        font-family: 'FontAwesome';
+    }
+
+}
+
+.title-main {
+    font-size: 50px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(top right, $primary-color, $secondary-color);
+    background-image: -moz-linear-gradient(top right, $primary-color, $secondary-color);
+    background-image: -o-linear-gradient(top right, $primary-color, $secondary-color);
+    background-image: linear-gradient(to bottom left, $primary-color, $secondary-color);
+}
+
+.title-header-category {
+    font-size: 40px;
+}
+
+// for typography
+
+.header-category-description {
+    font-size: 20px;
+    padding-top: 10px;
+}
