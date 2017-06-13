@@ -1,6 +1,17 @@
 .btn-primary {
     background-color: $btn-primary-bg;
     border: 0;
+    width: 30%;
+    height: 40px;
+    color: $primary-color;
+    text-transform: uppercase;
+    @media (max-width: $screen-xs-max) {
+        width: 100%;
+    }
+    &:hover, &:focus, &:active {
+        background: rgba($btn-primary-bg, 0.7);
+        color: $primary-color;
+    }
 }
 
 .btn-wrapper {

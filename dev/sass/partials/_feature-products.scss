@@ -1,11 +1,13 @@
 .feature-products {
     @extend .container;
-    @media (max-width: $screen-xs-max) {
+    margin-bottom: 30px;
+    @media (max-width: $screen-md-max) {
         padding-left: 50px;
         padding-right: 50px;
     }
     .feature-products-row {
         @include make-row();
+        margin-bottom: 20px;
         //overflow: hidden;
         .product-col {
             @include make-md-column(3);

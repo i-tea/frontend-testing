@@ -1,0 +1,17 @@
+.articles {
+    @extend .container;
+    margin-bottom: 30px;
+    &-row {
+        @include make-row();
+        margin-bottom: 20px;
+        //overflow: hidden;
+        .article-col {
+            @include make-xs-column(12);
+            @include make-md-column(4);
+            .article-picture {
+                width: 100%;
+                background-color: #fff;
+            }
+        }
+    }
+}
